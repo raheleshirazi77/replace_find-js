@@ -15,10 +15,10 @@ let students = [ // Define a list that contains objects
     { name: "kosar", family: "shirsolat", favorit_color: "blue", gamut: "docter" },
     { name: "reyhane", family: "shirazi", favorit_color: "sky blue", gamut: "docter" },
 ]
-function findStudent(value) { // Create a function to perform the operation of finding the desired key and value
+function findStudent(value) {  // Create a function to perform the operation of finding the desired key and value
     return value.gamut == "front_end"; // Find the desired key and value
 }
 
-let myFilter = students.find(findStudent); // Defining the variable to find with the method of finding the desired value
+let myFilter = students.find(findStudent()); // Defining the variable to find with the method of finding the desired value
 console.log(myFilter); // Finally show it And Tamam Tamam😁
 
